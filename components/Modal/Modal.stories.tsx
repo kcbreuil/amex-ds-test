@@ -16,16 +16,14 @@ export const Default = {
 		const [isOpen, setIsOpen] = useState(true);
 
 		return (
-			<div>
-				<Modal
-					heading={"Exciting content"}
-					body={"You should send us information so we may help you!"}
-					modalOpen={isOpen}
-					onClose={() => {
-						setIsOpen(false);
-					}}
-				/>
-			</div>
+			<Modal
+				heading={"Exciting content"}
+				body={"You should send us information so we may help you!"}
+				modalOpen={isOpen}
+				onClose={() => {
+					setIsOpen(false);
+				}}
+			/>
 		);
 	},
 } satisfies Story;
