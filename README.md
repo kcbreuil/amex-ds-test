@@ -8,6 +8,8 @@ For our component library, we will be powering the components with storybook, ne
 
 Selected NextJS as our React framework, as it provides easy configuration with jest--mostly because I wouldn't need to configure another compiler. From reviewing the assignment, I could see we would be handling data fetching and their SSR and api routing seems to be a good fit. Plus it's very fresh in my mind as I have been working in this environment for the last 16 months.
 
+You can install the dependencies with `yarn`
+
 To run the development server:
 
 `yarn dev`
@@ -27,6 +29,8 @@ Run `yarn storybook` to spin up our storybook instance.
 ### Testing
 
 Jest will run our suite of React Testing Library tests. This is my standard test runner for RTL, and as mentioned previously, Next comes bootstrapped with jest to process our tests.
+
+To run tests, `yarn test`
 
 ## Plop
 
