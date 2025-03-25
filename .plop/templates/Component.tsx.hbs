@@ -1,0 +1,19 @@
+import classNames from 'classnames';
+
+type {{pascalCase name}}Props = {
+  /**
+   * CSS class names that can be appended to the component.
+   */
+  className?: string;
+};
+
+/**
+ * {{description}}
+ */
+export function {{pascalCase name}}({ className, ...props }: {{pascalCase name}}Props) {
+  return (
+    <div className={classNames('amex-ds-{{dashCase name}}', className)} {...props}>
+      Learn new tricks!
+    </div>
+  );
+}
